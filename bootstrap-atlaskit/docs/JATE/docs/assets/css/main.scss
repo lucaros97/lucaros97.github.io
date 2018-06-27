@@ -1,3 +1,7 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
 @charset "utf-8";
 
 // @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
@@ -20,7 +24,7 @@ $masthead-link-color-hover: $c-secondary !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 
-// @import "minimal-mistakes"; // main partials
+@import "minimal-mistakes"; // main partials
 
 .page__content a:not(.btn):not(#goog-wm-sb) img {
     box-shadow: 0 0 10px rgba(0,0,0,0.25);

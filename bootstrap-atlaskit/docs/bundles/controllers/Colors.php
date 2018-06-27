@@ -7,6 +7,7 @@
         "css/colors.min.css"
       ]);
 
+      $this->template = "bundles/views/documentation-template.twig";
       $this->tags["title"]  .= "Colors";
       $this->tags["content"] = $this->makePage();
     }
