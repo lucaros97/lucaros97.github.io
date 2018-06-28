@@ -1,9 +1,0 @@
-{
-  "defaultPage" : ["Page404", []],
-  "pages": [
-    ["/Page404", "Page404", []],
-    ["/",        "Home",    []],
-    ["/home",    "Home",    []],
-    ["/Page1",   "Page01",  []]
-  ]
-}
